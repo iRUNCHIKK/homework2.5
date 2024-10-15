@@ -4,8 +4,8 @@ import exception.WrongPasswordException;
 import java.util.regex.Pattern;
 
 public class Validator {
-    private final static Pattern LOGIN_PATTERN = Pattern.compile("[a-zA-Z0-9_]{1,20}]");
-    private final static Pattern PASSWORD_PATTERN = Pattern.compile("[a-zA-Z0-9_]{1,20}]");
+    private final static Pattern LOGIN_PATTERN = Pattern.compile("[a-zA-Z0-9_]{1,20}");
+    private final static Pattern PASSWORD_PATTERN = Pattern.compile("[a-zA-Z0-9_]{1,20}");
     public static void validate (
 
             String login,
