@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         String login = "Login";
-        String password = "Password";
-        String confirmPassword = "ConfirmPassword";
+        String password = "Pass_word0932";
+        String confirmPassword = "Pass_word0932";
 
         try {
             Validator.validate(login, password, confirmPassword);
